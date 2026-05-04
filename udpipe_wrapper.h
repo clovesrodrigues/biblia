@@ -1,7 +1,7 @@
 #ifndef UDPIPE_WRAPPER_H
 #define UDPIPE_WRAPPER_H
 
-#include "udpipe-master/src_lib_only/udpipe.h" // Se o header estiver na mesma pasta ou no path do -I
+#include "udpipe.h" // Se o header estiver na mesma pasta ou no path do -I
 #include <string>
 #include <sstream>
 
