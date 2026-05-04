@@ -1,0 +1,5 @@
+RULES FOR COPILING THE BIBLIA.CPP
+CHANGE THE FOLDERS FOR YOUT FOLDERS
+
+UDPIPER
+g++ BIBLIA.cpp -o BIBLIA.exe resource.o "D:/' YOUR FOLDER HERE ! '/Biblia/biblia/udpipe-master/src/libudpipe.a" -std=c++17 -O2 -finput-charset=UTF-8 -fexec-charset=UTF-8 -I. -ID:/MING64/wxWidgets-3.3.2/include -ID:/MING64/wxWidgets-3.3.2/lib/gcc_lib/mswu -I"udpipe-master/src" -L. -LD:/MING64/wxWidgets-3.3.2/lib/gcc_lib -lbiblia_aa -lwxmsw33u_core -lwxbase33u -lwxtiff -lwxjpeg -lwxpng -lwxzlib -luxtheme -lmsimg32 -loleacc -lwinspool -lgdiplus -lgdi32 -lshlwapi -lversion -lcomctl32 -lole32 -loleaut32 -luuid -lrpcrt4 -ladvapi32 -lwsock32 -lwinmm -lcomdlg32 -luser32 -lkernel32 -mwindows
