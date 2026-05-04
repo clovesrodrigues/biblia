@@ -1,0 +1,125 @@
+﻿#include "biblia.h"
+
+void Biblia::Carregar1Timoteo(Biblia* b) {
+    b->dados[TIMOTEO1].nome = wxT("1 Timoteo");
+
+    b->dados[TIMOTEO1].capitulos[1].versos[1] = wxT("Paulo, apóstolo de Cristo Jesus, segundo o mandado de Deus, nosso Salvador, e de Cristo Jesus, esperança nossa.");
+    b->dados[TIMOTEO1].capitulos[1].versos[2] = wxT("a Timóteo, meu verdadeiro filho na fé: graça, misericórdia e paz da parte de Deus Pai e de Cristo Jesus, nosso Senhor.");
+    b->dados[TIMOTEO1].capitulos[1].versos[3] = wxT("Como te roguei, quando partia para a Macedônia, que ficasse em Éfeso, para advertires a alguns que não ensinassem doutrina diversa,");
+    b->dados[TIMOTEO1].capitulos[1].versos[4] = wxT("nem se preocupassem com fábulas ou genealogias intermináveis, pois que produzem antes discussões que edificação para com Deus, que se funda na fé...");
+    b->dados[TIMOTEO1].capitulos[1].versos[5] = wxT("Mas o fim desta admoestação é o amor que procede de um coração puro, de uma boa consciência, e de uma fé não fingida;");
+    b->dados[TIMOTEO1].capitulos[1].versos[6] = wxT("das quais coisas alguns se desviaram, e se entregaram a discursos vãos,");
+    b->dados[TIMOTEO1].capitulos[1].versos[7] = wxT("querendo ser doutores da lei, embora não entendam nem o que dizem nem o que com tanta confiança afirmam.");
+    b->dados[TIMOTEO1].capitulos[1].versos[8] = wxT("Sabemos, porém, que a lei é boa, se alguém dela usar legitimamente,");
+    b->dados[TIMOTEO1].capitulos[1].versos[9] = wxT("reconhecendo que a lei não é feita para o justo, mas para os transgressores e insubordinados, os irreverentes e pecadores, os ímpios e profanos, para os parricidas, matricidas e homicidas,");
+    b->dados[TIMOTEO1].capitulos[1].versos[10] = wxT("para os devassos, os sodomitas, os roubadores de homens, os mentirosos, os perjuros, e para tudo que for contrário à sã doutrina,");
+    b->dados[TIMOTEO1].capitulos[1].versos[11] = wxT("segundo o evangelho da glória do Deus bendito, que me foi confiado.");
+    b->dados[TIMOTEO1].capitulos[1].versos[12] = wxT("Dou graças àquele que me fortaleceu, a Cristo Jesus nosso Senhor, porque me julgou fiel, pondo-me no seu ministério,");
+    b->dados[TIMOTEO1].capitulos[1].versos[13] = wxT("ainda que outrora eu era blasfemador, perseguidor, e injuriador; mas alcancei misericórdia, porque o fiz por ignorância, na incredulidade;");
+    b->dados[TIMOTEO1].capitulos[1].versos[14] = wxT("e a graça de nosso Senhor superabundou com a fé e o amor que há em Cristo Jesus.");
+    b->dados[TIMOTEO1].capitulos[1].versos[15] = wxT("Fiel é esta palavra e digna de toda a aceitação; que Cristo Jesus veio ao mundo para salvar os pecadores, dos quais sou eu o principal;");
+    b->dados[TIMOTEO1].capitulos[1].versos[16] = wxT("mas por isso alcancei misericórdia, para que em mim, o principal, Cristo Jesus mostrasse toda a sua longanimidade, a fim de que eu servisse de exemplo aos que haviam de crer nele para a vida eterna.");
+    b->dados[TIMOTEO1].capitulos[1].versos[17] = wxT("Ora, ao Rei dos séculos, imortal, invisível, ao único Deus, seja honra e glória para todo o sempre. Amém.");
+    b->dados[TIMOTEO1].capitulos[1].versos[18] = wxT("Esta admoestação te dirijo, filho Timóteo, que segundo as profecias que houve acerca de ti, por elas pelejes a boa peleja,");
+    b->dados[TIMOTEO1].capitulos[1].versos[19] = wxT("conservando a fé, e uma boa consciência, a qual alguns havendo rejeitado, naufragando no tocante à fé;");
+    b->dados[TIMOTEO1].capitulos[1].versos[20] = wxT("e entre esses Himeneu e Alexandre, os quais entreguei a Satanás, para que aprendam a não blasfemar.");
+
+    b->dados[TIMOTEO1].capitulos[2].versos[1] = wxT("Exorto, pois, antes de tudo que se façam súplicas, orações, intercessões, e ações de graças por todos os homens,");
+    b->dados[TIMOTEO1].capitulos[2].versos[2] = wxT("pelos reis, e por todos os que exercem autoridade, para que tenhamos uma vida tranqüila e sossegada, em toda a piedade e honestidade.");
+    b->dados[TIMOTEO1].capitulos[2].versos[3] = wxT("Pois isto é bom e agradável diante de Deus nosso Salvador,");
+    b->dados[TIMOTEO1].capitulos[2].versos[4] = wxT("o qual deseja que todos os homens sejam salvos e cheguem ao pleno conhecimento da verdade.");
+    b->dados[TIMOTEO1].capitulos[2].versos[5] = wxT("Porque há um só Deus, e um só Mediador entre Deus e os homens, Cristo Jesus, homem,");
+    b->dados[TIMOTEO1].capitulos[2].versos[6] = wxT("o qual se deu a si mesmo em resgate por todos, para servir de testemunho a seu tempo;");
+    b->dados[TIMOTEO1].capitulos[2].versos[7] = wxT("para o que {digo a verdade, não minto} eu fui constituído pregador e apóstolo, mestre dos gentios na fé e na verdade.");
+    b->dados[TIMOTEO1].capitulos[2].versos[8] = wxT("Quero, pois, que os homens orem em todo lugar, levantando mãos santas, sem ira nem contenda.");
+    b->dados[TIMOTEO1].capitulos[2].versos[9] = wxT("Quero, do mesmo modo, que as mulheres se ataviem com traje decoroso, com modéstia e sobriedade, não com tranças, ou com ouro, ou pérolas, ou vestidos custosos,");
+    b->dados[TIMOTEO1].capitulos[2].versos[10] = wxT("mas {como convém a mulheres que fazem profissão de servir a Deus} com boas obras.");
+    b->dados[TIMOTEO1].capitulos[2].versos[11] = wxT("A mulher aprenda em silêncio com toda a submissão.");
+    b->dados[TIMOTEO1].capitulos[2].versos[12] = wxT("Pois não permito que a mulher ensine, nem tenha domínio sobre o homem, mas que esteja em silêncio.");
+    b->dados[TIMOTEO1].capitulos[2].versos[13] = wxT("Porque primeiro foi formado Adão, depois Eva.");
+    b->dados[TIMOTEO1].capitulos[2].versos[14] = wxT("E Adão não foi enganado, mas a mulher, sendo enganada, caiu em transgressão;");
+    b->dados[TIMOTEO1].capitulos[2].versos[15] = wxT("salvar-se-á, todavia, dando à luz filhos, se permanecer com sobriedade na fé, no amor e na santificação.");
+
+    b->dados[TIMOTEO1].capitulos[3].versos[1] = wxT("Fiel é esta palavra: Se alguém aspira ao episcopado, excelente obra deseja.");
+    b->dados[TIMOTEO1].capitulos[3].versos[2] = wxT("É necessário, pois, que o bispo seja irrepreensível, marido de uma só mulher, temperante, sóbrio, ordeiro, hospitaleiro, apto para ensinar;");
+    b->dados[TIMOTEO1].capitulos[3].versos[3] = wxT("não dado ao vinho, não espancador, mas moderado, inimigo de contendas, não ganancioso;");
+    b->dados[TIMOTEO1].capitulos[3].versos[4] = wxT("que governe bem a sua própria casa, tendo seus filhos em sujeição, com todo o respeito");
+    b->dados[TIMOTEO1].capitulos[3].versos[5] = wxT("{pois, se alguém não sabe governar a sua própria casa, como cuidará da igreja de Deus?};");
+    b->dados[TIMOTEO1].capitulos[3].versos[6] = wxT("não neófito, para que não se ensoberbeça e venha a cair na condenação do Diabo.");
+    b->dados[TIMOTEO1].capitulos[3].versos[7] = wxT("Também é necessário que tenha bom testemunho dos que estão de fora, para que não caia em opróbrio, e no laço do Diabo.");
+    b->dados[TIMOTEO1].capitulos[3].versos[8] = wxT("Da mesma forma os diáconos sejam sérios, não de língua dobre, não dados a muito vinho, não cobiçosos de torpe ganância,");
+    b->dados[TIMOTEO1].capitulos[3].versos[9] = wxT("guardando o mistério da fé numa consciência pura.");
+    b->dados[TIMOTEO1].capitulos[3].versos[10] = wxT("E também estes sejam primeiro provados, depois exercitem o diaconato, se forem irrepreensíveis.");
+    b->dados[TIMOTEO1].capitulos[3].versos[11] = wxT("Da mesma sorte as mulheres sejam sérias, não maldizentes, temperantes, e fiéis em tudo.");
+    b->dados[TIMOTEO1].capitulos[3].versos[12] = wxT("Os diáconos sejam maridos de uma só mulher, e governem bem a seus filhos e suas próprias casas.");
+    b->dados[TIMOTEO1].capitulos[3].versos[13] = wxT("Porque os que servirem bem como diáconos, adquirirão para si um lugar honroso e muita confiança na fé que há em Cristo Jesus.");
+    b->dados[TIMOTEO1].capitulos[3].versos[14] = wxT("Escrevo-te estas coisas, embora esperando ir ver-te em breve,");
+    b->dados[TIMOTEO1].capitulos[3].versos[15] = wxT("para que, no caso de eu tardar, saibas como se deve proceder na casa de Deus, a qual é a igreja do Deus vivo, coluna e esteio da verdade.");
+    b->dados[TIMOTEO1].capitulos[3].versos[16] = wxT("E, sem dúvida alguma, grande é o mistério da piedade: Aquele que se manifestou em carne, foi justificado em espírito, visto dos anjos, pregado entre os gentios, crido no mundo, e recebido acima na glória.");
+
+    b->dados[TIMOTEO1].capitulos[4].versos[1] = wxT("Mas o Espírito expressamente diz que em tempos posteriores alguns apostatarão da fé, dando ouvidos a espíritos enganadores, e a doutrinas de demônios,");
+    b->dados[TIMOTEO1].capitulos[4].versos[2] = wxT("pela hipocrisia de homens que falam mentiras e têm a sua própria consciência cauterizada,");
+    b->dados[TIMOTEO1].capitulos[4].versos[3] = wxT("proibindo o casamento, e ordenando a abstinência de alimentos que Deus criou para serem recebidos com ações de graças pelos que são fiéis e que conhecem bem a verdade;");
+    b->dados[TIMOTEO1].capitulos[4].versos[4] = wxT("pois todas as coisas criadas por Deus são boas, e nada deve ser rejeitado se é recebido com ações de graças;");
+    b->dados[TIMOTEO1].capitulos[4].versos[5] = wxT("porque pela palavra de Deus e pela oração são santificadas.");
+    b->dados[TIMOTEO1].capitulos[4].versos[6] = wxT("Propondo estas coisas aos irmãos, serás bom ministro de Cristo Jesus, nutrido pelas palavras da fé e da boa doutrina que tens seguido;");
+    b->dados[TIMOTEO1].capitulos[4].versos[7] = wxT("mas rejeita as fábulas profanas e de velhas. Exercita-te a ti mesmo na piedade.");
+    b->dados[TIMOTEO1].capitulos[4].versos[8] = wxT("Pois o exercício corporal para pouco aproveita, mas a piedade para tudo é proveitosa, visto que tem a promessa da vida presente e da que há de vir.");
+    b->dados[TIMOTEO1].capitulos[4].versos[9] = wxT("Fiel é esta palavra e digna de toda aceitação.");
+    b->dados[TIMOTEO1].capitulos[4].versos[10] = wxT("Pois para isto é que trabalhamos e lutamos, porque temos posto a nossa esperança no Deus vivo, que é o Salvador de todos os homens, especialmente dos que crêem.");
+    b->dados[TIMOTEO1].capitulos[4].versos[11] = wxT("Manda estas coisas e ensina-as.");
+    b->dados[TIMOTEO1].capitulos[4].versos[12] = wxT("Ninguém despreze a tua mocidade, mas sê um exemplo para os fiéis na palavra, no procedimento, no amor, na fé, na pureza.");
+    b->dados[TIMOTEO1].capitulos[4].versos[13] = wxT("até que eu vá, aplica-te à leitura, à exortação, e ao ensino.");
+    b->dados[TIMOTEO1].capitulos[4].versos[14] = wxT("Não negligencies o dom que há em ti, o qual te foi dado por profecia, com a imposição das mãos do presbítero.");
+    b->dados[TIMOTEO1].capitulos[4].versos[15] = wxT("Ocupa-te destas coisas, dedica-te inteiramente a elas, para que o teu progresso seja manifesto a todos.");
+    b->dados[TIMOTEO1].capitulos[4].versos[16] = wxT("Tem cuidado de ti mesmo e do teu ensino; persevera nestas coisas; porque, fazendo isto, te salvarás, tanto a ti mesmo como aos que te ouvem.");
+
+    b->dados[TIMOTEO1].capitulos[5].versos[1] = wxT("Não repreendas asperamente a um velho, mas admoesta-o como a um pai; aos moços, como a irmãos;");
+    b->dados[TIMOTEO1].capitulos[5].versos[2] = wxT("às mulheres idosas, como a mães; às moças, como a irmãs, com toda a pureza.");
+    b->dados[TIMOTEO1].capitulos[5].versos[3] = wxT("Honra as viúvas que são verdadeiramente viúvas.");
+    b->dados[TIMOTEO1].capitulos[5].versos[4] = wxT("Mas, se alguma viúva tiver filhos, ou netos, aprendam eles primeiro a exercer piedade para com a sua própria família, e a recompensar seus progenitores; porque isto é agradável a Deus.");
+    b->dados[TIMOTEO1].capitulos[5].versos[5] = wxT("Ora, a que é verdadeiramente viúva e desamparada espera em Deus, e persevera de noite e de dia em súplicas e orações;");
+    b->dados[TIMOTEO1].capitulos[5].versos[6] = wxT("mas a que vive em prazeres, embora viva, está morta.");
+    b->dados[TIMOTEO1].capitulos[5].versos[7] = wxT("Manda, pois, estas coisas, para que elas sejam irrepreensíveis.");
+    b->dados[TIMOTEO1].capitulos[5].versos[8] = wxT("Mas, se alguém não cuida dos seus, e especialmente dos da sua família, tem negado a fé, e é pior que um incrédulo.");
+    b->dados[TIMOTEO1].capitulos[5].versos[9] = wxT("Não seja inscrita como viúva nenhuma que tenha menos de sessenta anos, e só a que tenha sido mulher de um só marido,");
+    b->dados[TIMOTEO1].capitulos[5].versos[10] = wxT("aprovada com testemunho de boas obras, se criou filhos, se exercitou hospitalidade, se lavou os pés aos santos, se socorreu os atribulados, se praticou toda sorte de boas obras.");
+    b->dados[TIMOTEO1].capitulos[5].versos[11] = wxT("Mas rejeita as viúvas mais novas, porque, quando se tornam levianas contra Cristo, querem casar-se;");
+    b->dados[TIMOTEO1].capitulos[5].versos[12] = wxT("tendo já a sua condenação por haverem violado a primeira fé;");
+    b->dados[TIMOTEO1].capitulos[5].versos[13] = wxT("e, além disto, aprendem também a ser ociosas, andando de casa em casa; e não somente ociosas, mas também faladeiras e intrigantes, falando o que não convém.");
+    b->dados[TIMOTEO1].capitulos[5].versos[14] = wxT("Quero pois que as mais novas se casem, tenham filhos, dirijam a sua casa, e não dêem ocasião ao adversário de maldizer;");
+    b->dados[TIMOTEO1].capitulos[5].versos[15] = wxT("porque já algumas se desviaram, indo após Satanás.");
+    b->dados[TIMOTEO1].capitulos[5].versos[16] = wxT("Se alguma mulher crente tem viúvas, socorra-as, e não se sobrecarregue a igreja, para que esta possa socorrer as que são verdadeiramente viúvas.");
+    b->dados[TIMOTEO1].capitulos[5].versos[17] = wxT("Os anciãos que governam bem sejam tidos por dignos de duplicada honra, especialmente os que labutam na pregação e no ensino.");
+    b->dados[TIMOTEO1].capitulos[5].versos[18] = wxT("Porque diz a Escritura: Não atarás a boca ao boi quando debulha. E: Digno é o trabalhador do seu salário.");
+    b->dados[TIMOTEO1].capitulos[5].versos[19] = wxT("Não aceites acusação contra um ancião, senão com duas ou três testemunhas.");
+    b->dados[TIMOTEO1].capitulos[5].versos[20] = wxT("Aos que vivem no pecado, repreende-os na presença de todos, para que também os outros tenham temor.");
+    b->dados[TIMOTEO1].capitulos[5].versos[21] = wxT("Conjuro-te diante de Deus, e de Cristo Jesus, e dos anjos eleitos, que sem prevenção guardes estas coisas, nada fazendo com parcialidade.");
+    b->dados[TIMOTEO1].capitulos[5].versos[22] = wxT("A ninguém imponhas precipitadamente as mãos, nem participes dos pecados alheios; conserva-te a ti mesmo puro.");
+    b->dados[TIMOTEO1].capitulos[5].versos[23] = wxT("Não bebas mais água só, mas usa um pouco de vinho, por causa do teu estômago e das tuas freqüentes enfermidades.");
+    b->dados[TIMOTEO1].capitulos[5].versos[24] = wxT("Os pecados de alguns homens são manifestos antes de entrarem em juízo, enquanto os de outros descobrem-se depois.");
+    b->dados[TIMOTEO1].capitulos[5].versos[25] = wxT("Da mesma forma também as boas obras são manifestas antecipadamente; e as que não o são não podem ficar ocultas.");
+
+    b->dados[TIMOTEO1].capitulos[6].versos[1] = wxT("Todos os servos que estão debaixo do jugo considerem seus senhores dignos de toda honra, para que o nome de Deus e a doutrina não sejam blasfemados.");
+    b->dados[TIMOTEO1].capitulos[6].versos[2] = wxT("E os que têm senhores crentes não os desprezem, porque são irmãos; antes os sirvam melhor, porque eles, que se utilizam do seu bom serviço, são crentes e amados. Ensina estas coisas.");
+    b->dados[TIMOTEO1].capitulos[6].versos[3] = wxT("Se alguém ensina alguma doutrina diversa, e não se conforma com as sãs palavras de nosso Senhor Jesus Cristo, e com a doutrina que é segundo a piedade,");
+    b->dados[TIMOTEO1].capitulos[6].versos[4] = wxT("é soberbo, e nada sabe, mas delira acerca de questões e contendas de palavras, das quais nascem invejas, porfias, injúrias, suspeitas maliciosas,");
+    b->dados[TIMOTEO1].capitulos[6].versos[5] = wxT("disputas de homens corruptos de entendimento, e privados da verdade, cuidando que a piedade é fonte de lucro;");
+    b->dados[TIMOTEO1].capitulos[6].versos[6] = wxT("e, de fato, é grande fonte de lucro a piedade com o contentamento.");
+    b->dados[TIMOTEO1].capitulos[6].versos[7] = wxT("Porque nada trouxe para este mundo, e nada podemos daqui levar;");
+    b->dados[TIMOTEO1].capitulos[6].versos[8] = wxT("tendo, porém, alimento e vestuário, estaremos com isso contentes.");
+    b->dados[TIMOTEO1].capitulos[6].versos[9] = wxT("Mas os que querem tornar-se ricos caem em tentação e em laço, e em muitas concupiscências loucas e nocivas, as quais submergem os homens na ruína e na perdição.");
+    b->dados[TIMOTEO1].capitulos[6].versos[10] = wxT("Porque o amor ao dinheiro é raiz de todos os males; e nessa cobiça alguns se desviaram da fé, e se traspassaram a si mesmos com muitas dores.");
+    b->dados[TIMOTEO1].capitulos[6].versos[11] = wxT("Mas tu, ó homem de Deus, foge destas coisas, e segue a justiça, a piedade, a fé, o amor, a constância, a mansidão.");
+    b->dados[TIMOTEO1].capitulos[6].versos[12] = wxT("Peleja a boa peleja da fé, apodera-te da vida eterna, para a qual foste chamado, tendo já feito boa confissão diante de muitas testemunhas.");
+    b->dados[TIMOTEO1].capitulos[6].versos[13] = wxT("Diante de Deus, que todas as coisas vivifica, e de Cristo Jesus, que perante Pôncio Pilatos deu o testemunho da boa confissão, exorto-te");
+    b->dados[TIMOTEO1].capitulos[6].versos[14] = wxT("a que guardes este mandamento sem mácula e irrepreensível até a vinda de nosso Senhor Jesus Cristo;");
+    b->dados[TIMOTEO1].capitulos[6].versos[15] = wxT("a qual, no tempo próprio, manifestará o bem-aventurado e único soberano, Rei dos reis e Senhor dos senhores;");
+    b->dados[TIMOTEO1].capitulos[6].versos[16] = wxT("aquele que possui, ele só, a imortalidade, e habita em luz inacessível; a quem nenhum dos homens tem visto nem pode ver; ao qual seja honra e poder sempiterno. Amém.");
+    b->dados[TIMOTEO1].capitulos[6].versos[17] = wxT("manda aos ricos deste mundo que não sejam altivos, nem ponham a sua esperança na incerteza das riquezas, mas em Deus, que nos concede abundantemente todas as coisas para delas gozarmos;");
+    b->dados[TIMOTEO1].capitulos[6].versos[18] = wxT("que pratiquem o bem, que se enriqueçam de boas obras, que sejam liberais e generosos,");
+    b->dados[TIMOTEO1].capitulos[6].versos[19] = wxT("entesourando para si mesmos um bom fundamento para o futuro, para que possam alcançar a verdadeira vida.");
+    b->dados[TIMOTEO1].capitulos[6].versos[20] = wxT("Ó Timóteo, guarda o depósito que te foi confiado, evitando as conversas vãs e profanas e as oposições da falsamente chamada ciência;");
+    b->dados[TIMOTEO1].capitulos[6].versos[21] = wxT("a qual professando-a alguns, se desviaram da fé. A graça seja convosco.");
+
+}

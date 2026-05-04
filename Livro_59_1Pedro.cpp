@@ -1,0 +1,116 @@
+﻿#include "biblia.h"
+
+void Biblia::Carregar1Pedro(Biblia* b) {
+    b->dados[PEDRO1].nome = wxT("1 Pedro");
+
+    b->dados[PEDRO1].capitulos[1].versos[1] = wxT("Pedro, apóstolo de Jesus Cristo, aos peregrinos da Dispersão no Ponto, Galácia, Capadócia, Ásia e Bitínia.");
+    b->dados[PEDRO1].capitulos[1].versos[2] = wxT("eleitos segundo a presciência de Deus Pai, na santificação do Espírito, para a obediência e aspersão do sangue de Jesus Cristo: Graça e paz vos sejam multiplicadas.");
+    b->dados[PEDRO1].capitulos[1].versos[3] = wxT("Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, que, segundo a sua grande misericórdia, nos regenerou para uma viva esperança, pela ressurreição de Jesus Cristo dentre os mortos,");
+    b->dados[PEDRO1].capitulos[1].versos[4] = wxT("para uma herança incorruptível, incontaminável e imarcescível, reservada nos céus para vós,");
+    b->dados[PEDRO1].capitulos[1].versos[5] = wxT("que pelo poder de Deus sois guardados, mediante a fé, para a salvação que está preparada para se revelar no último tempo;");
+    b->dados[PEDRO1].capitulos[1].versos[6] = wxT("na qual exultais, ainda que agora por um pouco de tempo, sendo necessário, estejais contristados por várias provações,");
+    b->dados[PEDRO1].capitulos[1].versos[7] = wxT("para que a prova da vossa fé, mais preciosa do que o ouro que perece, embora provado pelo fogo, redunde para louvor, glória e honra na revelação de Jesus Cristo;");
+    b->dados[PEDRO1].capitulos[1].versos[8] = wxT("a quem, sem o terdes visto, amais; no qual, sem agora o verdes, mas crendo, exultais com gozo inefável e cheio de glória,");
+    b->dados[PEDRO1].capitulos[1].versos[9] = wxT("alcançando o fim da vossa fé, a salvação das vossas almas.");
+    b->dados[PEDRO1].capitulos[1].versos[10] = wxT("Desta salvação inquiririam e indagaram diligentemente os profetas que profetizaram da graça que para vós era destinada,");
+    b->dados[PEDRO1].capitulos[1].versos[11] = wxT("indagando qual o tempo ou qual a ocasião que o Espírito de Cristo que estava neles indicava, ao predizer os sofrimentos que a Cristo haviam de vir, e a glória que se lhes havia de seguir.");
+    b->dados[PEDRO1].capitulos[1].versos[12] = wxT("Aos quais foi revelado que não para si mesmos, mas para vós, eles ministravam estas coisas que agora vos foram anunciadas por aqueles que, pelo Espírito Santo enviado do céu, vos pregaram o evangelho; para as quais coisas os anjos bem desejam atentar.");
+    b->dados[PEDRO1].capitulos[1].versos[13] = wxT("Portanto, cingindo os lombos do vosso entendimento, sede sóbrios, e esperai inteiramente na graça que se vos oferece na revelação de Jesus Cristo.");
+    b->dados[PEDRO1].capitulos[1].versos[14] = wxT("Como filhos obedientes, não vos conformeis às concupiscências que antes tínheis na vossa ignorância;");
+    b->dados[PEDRO1].capitulos[1].versos[15] = wxT("mas, como é santo aquele que vos chamou, sede vós também santos em todo o vosso procedimento;");
+    b->dados[PEDRO1].capitulos[1].versos[16] = wxT("porquanto está escrito: Sereis santos, porque eu sou santo.");
+    b->dados[PEDRO1].capitulos[1].versos[17] = wxT("E, se invocais por Pai aquele que, sem acepção de pessoas, julga segundo a obra de cada um, andai em temor durante o tempo da vossa peregrinação,");
+    b->dados[PEDRO1].capitulos[1].versos[18] = wxT("sabendo que não foi com coisas corruptíveis, como prata ou ouro, que fostes resgatados da vossa vã maneira de viver, que por tradição recebestes dos vossos pais,");
+    b->dados[PEDRO1].capitulos[1].versos[19] = wxT("mas com precioso sangue, como de um cordeiro sem defeito e sem mancha, o sangue de Cristo,");
+    b->dados[PEDRO1].capitulos[1].versos[20] = wxT("o qual, na verdade, foi conhecido ainda antes da fundação do mundo, mas manifesto no fim dos tempos por amor de vós,");
+    b->dados[PEDRO1].capitulos[1].versos[21] = wxT("que por ele credes em Deus, que o ressuscitou dentre os mortos e lhe deu glória, de modo que a vossa fé e esperança estivessem em Deus.");
+    b->dados[PEDRO1].capitulos[1].versos[22] = wxT("Já que tendes purificado as vossas almas na obediência à verdade, que leva ao amor fraternal não fingido, de coração amai-vos ardentemente uns aos outros,");
+    b->dados[PEDRO1].capitulos[1].versos[23] = wxT("tendo renascido, não de semente corruptível, mas de incorruptível, pela palavra de Deus, a qual vive e permanece.");
+    b->dados[PEDRO1].capitulos[1].versos[24] = wxT("Porque: Toda a carne é como a erva, e toda a sua glória como a flor da erva. Secou-se a erva, e caiu a sua flor;");
+    b->dados[PEDRO1].capitulos[1].versos[25] = wxT("mas a palavra do Senhor permanece para sempre. E esta é a palavra que vos foi evangelizada.");
+
+    b->dados[PEDRO1].capitulos[2].versos[1] = wxT("Deixando, pois, toda a malícia, todo o engano, e fingimentos, e invejas, e toda a maledicência,");
+    b->dados[PEDRO1].capitulos[2].versos[2] = wxT("desejai, como meninos recém-nascidos, o leite racional, sem dolo, para que por ele cresçais para a salvação,");
+    b->dados[PEDRO1].capitulos[2].versos[3] = wxT("se é que já provastes que o Senhor é benigno.");
+    b->dados[PEDRO1].capitulos[2].versos[4] = wxT("e, chegando-vos para ele, pedra viva, rejeitada, na verdade, pelos homens, mas, para com Deus eleita e preciosa,");
+    b->dados[PEDRO1].capitulos[2].versos[5] = wxT("sois vós também quais pedras vivas, edificados como casa espiritual para serdes um sacerdócio santo, a fim de oferecerdes sacrifícios espirituais, aceitáveis a Deus por Jesus Cristo.");
+    b->dados[PEDRO1].capitulos[2].versos[6] = wxT("Por isso é que se acha na Escritura: Eis que ponho em Sião a principal pedra angular, eleita e preciosa, E aquele que nele crê, não será envergonhado.");
+    b->dados[PEDRO1].capitulos[2].versos[7] = wxT("Para vós, portanto, que credes é a honra; mas para aqueles que descrêem, A pedra que os edificadores rejeitaram, Esta foi posta como a pedra angular");
+    b->dados[PEDRO1].capitulos[2].versos[8] = wxT("e Como uma pedra de tropeço e uma rocha de escândalo; porque tropeçam na palavra, sendo desobedientes, para o que também foram postos.");
+    b->dados[PEDRO1].capitulos[2].versos[9] = wxT("Mas vós sois a geração eleita, o sacerdócio real, a nação santa, o povo todo seu para que proclameis as grandezas daquele que vos chamou das trevas para a sua maravilhosa luz,");
+    b->dados[PEDRO1].capitulos[2].versos[10] = wxT("vós que em outro tempo éreis não povo, mas agora sois povo de Deus, vós que não havíeis alcançado misericórdia, mas agora a tendes alcançado.");
+    b->dados[PEDRO1].capitulos[2].versos[11] = wxT("Amados, rogo-vos como peregrinos e forasteiros, que vos abstenhais dos desejos carnais, que combatem contra a alma,");
+    b->dados[PEDRO1].capitulos[2].versos[12] = wxT("tendo o vosso procedimento bom entre os gentios, a fim de que, naquilo em que murmuram de vós como de malfeitores, considerando-vos pelas vossas obras, glorifiquem a Deus no dia da visitação.");
+    b->dados[PEDRO1].capitulos[2].versos[13] = wxT("Sujeitai-vos a toda autoridade humana por amor do Senhor, quer ao rei, como soberano,");
+    b->dados[PEDRO1].capitulos[2].versos[14] = wxT("quer seja ao rei como supremo, quer seja aos governadores, como enviados por ele para castigo dos malfeitores e para louvor dos que fazem o bem.");
+    b->dados[PEDRO1].capitulos[2].versos[15] = wxT("Porque assim é a vontade de Deus, que, fazendo o bem, façais emudecer a ignorância dos homens imprudentes,");
+    b->dados[PEDRO1].capitulos[2].versos[16] = wxT("como livres, e não tendo a vossa liberdade para capa da malícia, mas como servos de Deus.");
+    b->dados[PEDRO1].capitulos[2].versos[17] = wxT("Honrai a todos, amai a irmandade, temei a Deus, respeitai ao rei.");
+    b->dados[PEDRO1].capitulos[2].versos[18] = wxT("Servos, sede sujeitos com todo o temor a vossos senhores, não somente aos bons e moderados, mas também aos perversos.");
+    b->dados[PEDRO1].capitulos[2].versos[19] = wxT("Pois isto é agradável, se alguém, por ser cônscio de Deus, suporta tristezas, padecendo injustamente.");
+    b->dados[PEDRO1].capitulos[2].versos[20] = wxT("Pois que glória é, se sofreis com paciência, quando cometeis pecado, e sois por isso esbofeteados? mas se sofreis com paciência, quando fazeis o bem e por isso padeceis, isto é agradável a Deus.");
+    b->dados[PEDRO1].capitulos[2].versos[21] = wxT("Pois para isto fostes chamados, porquanto também Cristo padeceu por vós, deixando-vos exemplo, para que sigais as suas pisadas.");
+    b->dados[PEDRO1].capitulos[2].versos[22] = wxT("Ele não cometeu pecado, nem tão pouco foi achado engano na sua boca,");
+    b->dados[PEDRO1].capitulos[2].versos[23] = wxT("sendo injuriado, não injuriava, padecendo, não ameaçava, mas entregava-se àquele que julga justamente,");
+    b->dados[PEDRO1].capitulos[2].versos[24] = wxT("levando ele próprio os nossos pecados em seu corpo sobre o madeiro, a fim de que, mortos aos pecados, vivamos à justiça. Por suas feridas fostes sarados.");
+    b->dados[PEDRO1].capitulos[2].versos[25] = wxT("Pois éreis desgarrados como ovelhas, mas agora vos haveis convertido ao Pastor e Bispo das vossas almas.");
+
+    b->dados[PEDRO1].capitulos[3].versos[1] = wxT("Semelhantemente vós, mulheres, sede submissas a vossos maridos; para que também, se alguns deles não obedecem à palavra, sejam ganhos sem palavra pelo procedimento de suas mulheres,");
+    b->dados[PEDRO1].capitulos[3].versos[2] = wxT("considerando o vosso procedimento casto e com temor.");
+    b->dados[PEDRO1].capitulos[3].versos[3] = wxT("Não seja o seu adorno o enfeite exterior dos cabelos entrançados, das guarnições de renda de ouro ou da compostura dos vestidos,");
+    b->dados[PEDRO1].capitulos[3].versos[4] = wxT("mas seja o homem que está escondido no coração, no vestido incorruptível de um espírito manso e tranqüilo, que é de grande estima diante de Deus.");
+    b->dados[PEDRO1].capitulos[3].versos[5] = wxT("Pois assim se adornavam também noutro tempo as santas mulheres que esperavam em Deus, estando sujeitas a seus maridos,");
+    b->dados[PEDRO1].capitulos[3].versos[6] = wxT("como Sara obedeceu a Abraão, chamando-lhe senhor, da qual vos tornais filhas, se fazeis o bem e não temeis perturbação alguma.");
+    b->dados[PEDRO1].capitulos[3].versos[7] = wxT("Igualmente vós, maridos, vivei com elas segundo a ciência, como sendo vaso mulheril mais fraco, dando-lhes honra como a herdeiras juntamente convosco da graça da vida, para que as vossas orações não sejam impedidas.");
+    b->dados[PEDRO1].capitulos[3].versos[8] = wxT("Finalmente, sede todos de um mesmo sentimento, compassivos, cheios de amor fraternal, misericordiosos, humildes,");
+    b->dados[PEDRO1].capitulos[3].versos[9] = wxT("não retribuindo mal por mal, nem injúria por injúria; mas, pelo contrário, bendizendo, porque para isto fostes chamados, a fim de que recebais bênção por herança.");
+    b->dados[PEDRO1].capitulos[3].versos[10] = wxT("Pois: Quem quer amar a vida E ver os dias bons, Refreie a sua língua do mal E os seus lábios não falem engano,");
+    b->dados[PEDRO1].capitulos[3].versos[11] = wxT("Aparte-se do mal, e faça o bem, Busque a paz e vá após dela;");
+    b->dados[PEDRO1].capitulos[3].versos[12] = wxT("Porque os olhos do Senhor estão sobre os justos E os seus ouvidos atentos às súplicas deles, Mas o rosto do Senhor está sobre os que fazem o mal.");
+    b->dados[PEDRO1].capitulos[3].versos[13] = wxT("Quem é o que vos fará mal, se fordes zelosos do bem?");
+    b->dados[PEDRO1].capitulos[3].versos[14] = wxT("Mas também, se padecerdes por amor da justiça, bem-aventurados sereis; e não temais as suas ameaças, nem vos turbeis;");
+    b->dados[PEDRO1].capitulos[3].versos[15] = wxT("antes santificai em vossos corações a Cristo como Senhor; e estai sempre preparados para responder com mansidão e temor a todo aquele que vos pedir a razão da esperança que há em vós;");
+    b->dados[PEDRO1].capitulos[3].versos[16] = wxT("tendo uma boa consciência, para que, naquilo em que falam mal de vós, fiquem confundidos os que vituperam o vosso bom procedimento em Cristo.");
+    b->dados[PEDRO1].capitulos[3].versos[17] = wxT("Porque melhor é sofrerdes fazendo o bem, se a vontade de Deus assim o quer, do que fazendo o mal.");
+    b->dados[PEDRO1].capitulos[3].versos[18] = wxT("Porque também Cristo morreu uma só vez pelos pecados, o justo pelos injustos, para levar-nos a Deus; sendo, na verdade, morto na carne, mas vivificado no espírito;");
+    b->dados[PEDRO1].capitulos[3].versos[19] = wxT("no qual também foi, e pregou aos espíritos em prisão;");
+    b->dados[PEDRO1].capitulos[3].versos[20] = wxT("os quais noutro tempo foram rebeldes, quando a longanimidade de Deus esperava, nos dias de Noé, enquanto se preparava a arca; na qual poucas, isto é, oito almas se salvaram através da água,");
+    b->dados[PEDRO1].capitulos[3].versos[21] = wxT("que também agora, por uma verdadeira figura-o batismo, vos salva, o qual não é o despojamento da imundícia da carne, mas a indagação de uma boa consciência para com Deus, pela ressurreição de Jesus Cristo,");
+    b->dados[PEDRO1].capitulos[3].versos[22] = wxT("que está à destra de Deus, tendo subido ao céu; havendo-se-lhe sujeitado os anjos, e as autoridades, e as potestades.");
+
+    b->dados[PEDRO1].capitulos[4].versos[1] = wxT("Ora pois, já que Cristo padeceu na carne, armai-vos também vós deste mesmo pensamento; porque aquele que padeceu na carne já cessou do pecado;");
+    b->dados[PEDRO1].capitulos[4].versos[2] = wxT("para que, no tempo que ainda vos resta na carne não continueis a viver para as concupiscências dos homens, mas para a vontade de Deus.");
+    b->dados[PEDRO1].capitulos[4].versos[3] = wxT("Porque é bastante que no tempo passado tenhais cumprido a vontade dos gentios, andando em dissoluções, concupiscências, borrachices, glutonarias, bebedices e abomináveis idolatrias.");
+    b->dados[PEDRO1].capitulos[4].versos[4] = wxT("E acham estranho não correrdes com eles no mesmo desenfreamento de dissolução, blasfemando de vós;");
+    b->dados[PEDRO1].capitulos[4].versos[5] = wxT("os quais hão de dar conta ao que está preparado para julgar os vivos e os mortos.");
+    b->dados[PEDRO1].capitulos[4].versos[6] = wxT("Pois é por isto que foi pregado o evangelho até aos mortos, para que, na verdade, fossem julgados segundo os homens na carne, mas vivessem segundo Deus em espírito.");
+    b->dados[PEDRO1].capitulos[4].versos[7] = wxT("Mas já está próximo o fim de todas as coisas; portanto sede sóbrios e vigiai em oração;");
+    b->dados[PEDRO1].capitulos[4].versos[8] = wxT("tendo antes de tudo ardente amor uns para com os outros, porque o amor cobre uma multidão de pecados;");
+    b->dados[PEDRO1].capitulos[4].versos[9] = wxT("sendo hospitaleiros uns para com os outros, sem murmuração;");
+    b->dados[PEDRO1].capitulos[4].versos[10] = wxT("servindo uns aos outros conforme o dom que cada um recebeu, como bons despenseiros da multiforme graça de Deus.");
+    b->dados[PEDRO1].capitulos[4].versos[11] = wxT("Se alguém fala, fale como entregando oráculos de Deus; se alguém ministra, ministre segundo a força que Deus concede; para que em tudo Deus seja glorificado por meio de Jesus Cristo, ma quem pertencem a glória e o domínio para todo o sempre. Amém.");
+    b->dados[PEDRO1].capitulos[4].versos[12] = wxT("Amados, não estranheis a ardente provação que vem sobre vós para vos experimentar, como se coisa estranha vos acontecesse;");
+    b->dados[PEDRO1].capitulos[4].versos[13] = wxT("mas regozijai-vos por serdes participantes das aflições de Cristo; para que também na revelação da sua glória vos regozijeis e exulteis.");
+    b->dados[PEDRO1].capitulos[4].versos[14] = wxT("Se pelo nome de Cristo sois vituperados, bem-aventurados sois, porque sobre vós repousa o Espírito da glória, o Espírito de Deus.");
+    b->dados[PEDRO1].capitulos[4].versos[15] = wxT("Que nenhum de vós, entretanto, padeça como homicida, ou ladrão, ou malfeitor, ou como quem se entremete em negócios alheios;");
+    b->dados[PEDRO1].capitulos[4].versos[16] = wxT("mas, se padece como cristão, não se envergonhe, antes glorifique a Deus neste nome.");
+    b->dados[PEDRO1].capitulos[4].versos[17] = wxT("Porque já é tempo que comece o julgamento pela casa de Deus; e se começa por nós, qual será o fim daqueles que desobedecem ao evangelho de Deus?");
+    b->dados[PEDRO1].capitulos[4].versos[18] = wxT("E se o justo dificilmente se salva, onde comparecerá o ímpio pecador?");
+    b->dados[PEDRO1].capitulos[4].versos[19] = wxT("Portanto os que sofrem segundo a vontade de Deus confiem as suas almas ao fiel Criador, praticando o bem.");
+
+    b->dados[PEDRO1].capitulos[5].versos[1] = wxT("Aos anciãos, pois, que há entre vós, rogo eu, que sou ancião com eles e testemunha dos sofrimentos de Cristo, e participante da glória que se há de revelar:");
+    b->dados[PEDRO1].capitulos[5].versos[2] = wxT("Apascentai o rebanho de Deus, que está entre vós, não por força, mas espontaneamente segundo a vontade de Deus; nem por torpe ganância, mas de boa vontade;");
+    b->dados[PEDRO1].capitulos[5].versos[3] = wxT("nem como dominadores sobre os que vos foram confiados, mas servindo de exemplo ao rebanho.");
+    b->dados[PEDRO1].capitulos[5].versos[4] = wxT("E, quando se manifestar o sumo Pastor, recebereis a imarcescível coroa da glória.");
+    b->dados[PEDRO1].capitulos[5].versos[5] = wxT("Semelhantemente vós, os mais moços, sede sujeitos aos mais velhos. E cingi-vos todos de humildade uns para com os outros, porque Deus resiste aos soberbos, mas dá graça aos humildes.");
+    b->dados[PEDRO1].capitulos[5].versos[6] = wxT("Humilhai-vos, pois, debaixo da potente mão de Deus, para que a seu tempo vos exalte;");
+    b->dados[PEDRO1].capitulos[5].versos[7] = wxT("lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.");
+    b->dados[PEDRO1].capitulos[5].versos[8] = wxT("Sede sóbrios, vigiai. O vosso adversário, o Diabo, anda em derredor, rugindo como leão, e procurando a quem possa tragar;");
+    b->dados[PEDRO1].capitulos[5].versos[9] = wxT("ao qual resisti firmes na fé, sabendo que os mesmos sofrimentos estão-se cumprindo entre os vossos irmãos no mundo.");
+    b->dados[PEDRO1].capitulos[5].versos[10] = wxT("E o Deus de toda a graça, que em Cristo vos chamou à sua eterna glória, depois de haverdes sofrido por um pouco, ele mesmo vos há de aperfeiçoar, confirmar e fortalecer.");
+    b->dados[PEDRO1].capitulos[5].versos[11] = wxT("A ele seja o domínio para todo o sempre. Amém.");
+    b->dados[PEDRO1].capitulos[5].versos[12] = wxT("Por Silvano, nosso fiel irmão, como o considero, escravo abreviadamente, exortando e testificando que esta é a verdadeira graça de Deus; nela permanecei firmes.");
+    b->dados[PEDRO1].capitulos[5].versos[13] = wxT("A vossa co-eleita em Babilônia vos saúda, como também meu filho Marcos.");
+    b->dados[PEDRO1].capitulos[5].versos[14] = wxT("Saudai-vos uns aos outros com ósculo de amor. Paz seja com todos vós que estais em Cristo.");
+
+}
